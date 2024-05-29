@@ -1,0 +1,277 @@
+.Menu{
+    width: 250px;
+    height: 570px;
+    background-color: grey;
+    display: inline-block;
+    justify-content: center;
+    border-radius: 2%;
+    align-content: center;
+}
+
+.Menu img{
+    margin-left: 25px;
+    margin-top: 40px;
+    font-size: 50px;
+  
+    
+}
+.para{
+ margin: 10px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 20px;
+ align-items: space-evenly;
+ font-weight: 500px;
+ font-style: Bold;
+ line-height: 38px;
+ margin-left: 25px;
+ align-items:end;
+
+}
+
+.para:hover{
+    color: yellow;
+
+}
+
+.paraz{
+    border-radius: 4px;
+    margin: 10px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 20px;
+ align-items: space-evenly;
+ font-weight: 500px;
+ font-style: Bold;
+ line-height: 37px;
+ margin-left: 25px;
+ align-items:end;
+   
+    
+    font-size: 20px;
+    margin-left: 25px;
+}
+.paraza{
+    background-color: black;
+    color: yellow;
+    line-height: 50px;
+    border: 2px solid black;
+}
+
+.paraz:hover{
+    background-color: black;
+    color: yellow;
+}
+
+.Settings{
+    height:100px ;
+    width: 500px;
+    margin-left:25px;
+    margin-top: 10px;
+    
+    
+display: inline-block;
+font-weight: 700px;
+font-size: 25px;
+position: absolute;
+
+
+}
+
+.Settings i{
+    
+   
+    margin-top: 5px;
+}
+.set{
+    
+    font-weight: 800px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+
+
+.admin{
+    height: 65px;
+    width: 1210px;
+    top:0px;
+    background-color: yellow;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 250px;
+    margin-top: 100px;
+    position: absolute;
+    text-align: left;
+    display: flex;
+}
+
+.searchicon  i{
+    font-style: bold;
+    font-size: 30px;
+    margin: 15px;
+    justify-content: none;
+}
+
+
+
+.searchinput{
+    font-size: 30px;
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border:2px solid black;
+}
+
+.searchinput:active{
+    border-color: brown;
+}
+
+.add{
+   font-size: 40px;
+   margin:15px;
+}
+
+.add:active{
+    color: aqua;
+}
+
+.folder{
+    font-size: 40px;
+   margin:15px;
+}
+
+.folder:active{
+    color: aqua;
+}
+
+.var{
+    display: flex;
+    position: absolute;
+    margin-top: 184px;
+    margin-left: 275px;
+    top: -184px;
+    left: -275px;
+}
+
+.grp{
+    font-size: 20px;
+    top: 0px;
+    margin-top: 184px;
+    position: absolute;
+    margin-left:275px;
+   
+}
+
+.usr{
+    font-size: 20px;
+    position:absolute;
+    margin-top: 184px;
+    margin-left: 400px;
+    top: 0px;
+}
+
+.opr{
+    font-size: 20px;
+    position:absolute;
+    margin-top: 184px;
+    margin-left: 550px;
+    top: 0px;
+}
+
+.but{
+    font-size: 20px;
+    position:absolute;
+    margin-top: 184px;
+    margin-left: 800px;
+    top: 0px;
+}
+
+.butt{
+    font-size: 20px;
+    position:absolute;
+    margin-top: 184px;
+    margin-left: 950px;
+    top: 0px;
+}
+
+.butto{
+    font-size: 20px;
+    position:absolute;
+    margin-top: 184px;
+    margin-left: 1100px;
+    top: 0px;
+}
+
+.tbd{
+    height: 150px;
+    width: 1200px;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 275px;
+    top:-50px;
+    left: 5px;
+    border: 2px solid black;
+    justify-content: space-around;
+    
+   
+}
+
+.ab{
+    background-color: grey;
+    font-size: 10px;
+    border: 2px solid black;
+    justify-content: space-around;
+    font-size: 15px;
+    
+}
+
+
+cd{
+    background-color: grey;
+    font-size: 20px;
+    justify-content: space-evenly;
+    border: 2px solid black;
+
+}
+
+
+.ef{
+
+    font-size: 15px;
+    position:absolute;
+    left: 1300px;
+    top: 540px;
+    margin-right: 11px;
+    margin-bottom: 250px;
+    display: inline-block;
+    font-style:italic;
+}
+
+
+.foot{
+   background-color: rgb(186, 183, 183);
+   height: 100px;
+   width : 1480px ;
+   display: flex;
+   justify-content: space-between;
+  
+   
+}
+
+.foot i{
+    font-size: 50px;
+    margin: 15px;
+    margin-left: 25px;
+    
+}
+.fr{
+    width: 1300px;
+    margin-right: 5px;
+  justify-content: end;
+  background-color:rgb(186, 183, 183);
+  justify-items: end;
+}
