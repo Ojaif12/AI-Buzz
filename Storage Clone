@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body class="flex">
+    <div class="  h-96 w-52  text-black  bg-gray-300 "> 
+        <img src ="download.jpeg"  class="h-20 px-16 py-2">
+
+        <pre class="h-5  py-1 hover:text-yellow-700"> Overview           > </pre>
+            <pre class="h-3 py-4  hover:text-yellow-700"> System Settings    > </pre>
+             <pre class="h-3 py-5  hover:text-yellow-700"> Users & Groups      ></pre>
+            <pre class="h-3 py-6  hover:text-yellow-700"> Storage/Files      > </pre>
+            <pre class="h-3 py-7  hover:text-yellow-700"> Plugin Center      > </pre>
+            <pre class="h-3 py-8  hover:text-yellow-700"> Safety Control     > </pre>
+            <pre class="h-3 py-3  hover:text-yellow-700"> Server             > </pre>
+    </div>
+    <div class=" flex mx-9-54 h-20 w-4 ">
+        <span>
+            <i class="fa-solid fa-gear mx-6  my-3"></i>
+            </span>
+            <span>
+                <pre class="font-bold font-sans my-2 "> System Settings</pre>
+              </span>
+    </div>
+    <div class="my-12 -mx-4 flex h-12  bg-yellow-400" >
+        <pre class="h-8 py-4 mx-2"> Storage File -> Share                      
+        </pre>
+        <input placeholder="Please Enter The String" class=" mx-24 rounded-md  border-2 border-black py-2"> 
+        <div class=" flex   bg-yellow-400 mx-10  h-12   border-solid   w-96">
+           <pre class="font-bold  -my-2 hover:text-blue-500 border-solid">   
+            Cancel Sharing          Export
+           </pre> 
+        
+        </div>
+       
+           
+    </div>
+    
+ 
+   
+    <div class="mx-56 flex fixed">
+        <div class=" font-serif border-b-8 py-1 my-28 border-yellow-400 text-center text-black font-bold  ">
+           Sharing 
+         
+        </div>
+        <pre class="mx-10  my-28 py-1">Sharing Report</pre>
+       
+    </div>
+
+    <div class="fixed  flex ">
+        <button class="my-44 mx-52 border border-black text-black"> Today</button>
+        <button class="border border-black text-black  fixed mx-72 my-44"> Last 30 Days</button>
+        
+            <button class=" my-44 -mx-10 border-spacing-2 border border-black text-black">ALL</button>
+            <button class=" my-44 mx-20 border-spacing-2 border border-black text-black">Customize</button>
+            <select class=" my-44 mx-10 border-spacing-2 border border-black text-black">
+                <option> Select User</option>
+            </select>
+            <select class=" my-44 mx-10 border-spacing-2 border border-black text-black">
+                <option> Type</option>
+            </select>
+        
+    </div>
+     <div class="fixed mx-48 py-2 my-56 bg-gray-300 w-96 h-10 flex"  >
+        <pre class="flex ">
+        Sharer   Name   Type   Detail
+    </pre>
+       <div class=" bg-gray-300 w-96 h-10  py-1flex mx-14 -my-2  py-2">
+        <pre class="flex">
+  View       Download        Expiration 
+        </pre>
+        <div class=" bg-gray-300 w-96 h-10 flex mx-96 -my-14  py-2">
+            <pre class="flex">
+                Time        Action
+            </pre>
+        </div>
+
+       </div>
+     </div>
+     <div class="fixed mx-96 my-96 text-black font-bold">
+        <pre class="mx-48 -my-10">
+        No DATA Found
+    </pre>
+     </div>
+     <div class="fixed flex h-12 w-96 mt-96 font-bold text-black py-2 bg-gray-400">
+        File
+        <div class=" fixed  mx-96 -my-2 w-96 h-12 bg-gray-400"> 
+        <div class=" fixed  mx-96 w-96 h-12 bg-gray-400"> 
+        <div class=" fixed  mx-96 w-96 h-12 bg-gray-400"> </div>
+    </div>
+    </div>
+     </div>
+    </div>
+</body>
+</html>
